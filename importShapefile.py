@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 import geopandas as gpd
  
 user = "postgres"
-password = "1998"
+password = "****"
 host = "localhost"
 port = 5432
 database = "ais"
