@@ -80,7 +80,6 @@ create index idx_eur2015_points
 on public.eu2015
 using GiST(point)
 -----------------------------------------------------------
---axriasto
 --ST Buffer
 --select st_buffer(points,0.001,8.0) from public."Brest2015"
     
