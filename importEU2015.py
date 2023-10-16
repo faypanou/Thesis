@@ -1,5 +1,5 @@
 import psycopg2
-conn = psycopg2.connect("host=localhost dbname=ais user=postgres password=1998")
+conn = psycopg2.connect("host=localhost dbname=ais user=postgres password=****")
 #create a cursor object 
 #cursor object is used to interact with the database
 cur = conn.cursor()
